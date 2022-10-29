@@ -1,0 +1,28 @@
+:root{
+    --dark-purple: #334155;
+    --purple: #8081BD;
+    --white: #fff;
+    --red: #EA5D4A;
+    --brown: #FFF6D1;
+    --gold-color: #FDDC4E;
+}
+/* In there are have fonts */
+@import url(./fonts.css);
+/* local css codes */
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
